@@ -1,0 +1,76 @@
+baseURL = "https://franktsai127.github.io/personal_website/"
+languageCode = "en-us"
+title = "Frank Tsai"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+
+[params]
+  customCSS = ["css/custom.css"]
+  author = "Frank Tsai"
+  info = "I'm a software engineer currently working as a **Software Development Engineer Intern** at **Amazon**. I focus on **backend development** and **database optimization**, and more. Recently, I have lived in the U.S, and expect to graduate in **2026**."
+  description = "My personal website"
+  avatarURL = "images/avatar.jpg"
+  dark_mode = "dark"
+  hideColorSchemeToggle = true
+
+[[params.social]]
+name = "GitHub"
+icon = "fa fa-github fa-2x"
+url = "https://github.com/franktsai127"
+weight = 1
+rel = "noopener"
+target = "_blank"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+url = "https://www.linkedin.com/in/franktsai-swe"
+weight = 2
+rel = "noopener"
+target = "_blank"
+
+[[params.social]]
+name = "Email"
+icon = "fa fa-envelope fa-2x"
+url = "mailto:frank.tsai.mj@gmail.com"
+weight = 3
+rel = "noopener"
+target = "_blank"
+
+[taxonomies]
+  tag = "tags"
+
+[languages.en]
+  languageName = "English"
+  weight = 1
+  contentDir = "content/en"
+
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      name = "Resume"
+      url = "https://drive.google.com/file/d/1fNJybkeD3FsyGsmKn8-Lj6WNs7lWbCMx/view"
+      weight = 1
+      [languages.en.menu.main.params]
+        target = "_blank"
+        rel = "noopener noreferrer nofollow"
+
+
+# Chinese content
+[languages.zh]
+  languageName = "中文"
+  weight = 2
+  contentDir = "content/zh"
+
+  [languages.zh.params]
+    info = "我是名軟體工程師，目前在 Amazon 實習，我擅長的領域是後端開發與資料庫優化。近期在美國唸 CS，預計 2026 年畢業。"
+
+  [languages.zh.menu]
+    [[languages.zh.menu.main]]
+      name = "履歷"
+      url = "https://drive.google.com/file/d/1fNJybkeD3FsyGsmKn8-Lj6WNs7lWbCMx/view"
+      weight = 1
+      [languages.zh.menu.main.params]
+      target = "_blank"
+      rel = "noopener noreferrer nofollow"
