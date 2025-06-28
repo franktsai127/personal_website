@@ -14,6 +14,8 @@ defaultContentLanguageInSubdir = true
   avatarURL = "images/avatar.jpg"
   dark_mode = "dark"
   hideColorSchemeToggle = true
+  favicon_32 = "images/favicon-32x32.png"
+  favicon_16 = "images/favicon-16x16.png"
 
 [[params.social]]
 name = "GitHub"
