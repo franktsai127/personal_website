@@ -1,19 +1,20 @@
-baseURL = "https://franktsai127.github.io/personal_website/"
+baseURL = "https://franktsaiswe.com/"
 languageCode = "en-us"
 title = "Frank Tsai"
 theme = "hugo-coder"
-defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-
 
 [params]
   customCSS = ["css/custom.css"]
   author = "Frank Tsai"
-  info = "I'm a software engineer currently working as a **Software Development Engineer Intern** at **Amazon**. I focus on **backend development** and **database optimization**, and more. Recently, I have lived in the U.S, and expect to graduate in **2026**."
-  description = "My personal website"
+  info = "I'm a software engineer currently working as a **Software Development Engineer Intern** at **Amazon**. I focus on **backend development** and **distributed systems**, and more. I am studying at OSU, expecting to graduate in **2026**."
+  description = "Here is Frank Tsai's Website!"
   avatarURL = "images/avatar.jpg"
   dark_mode = "dark"
   hideColorSchemeToggle = true
+  favicon_32 = "images/favicon-32x32.png"
+  favicon_16 = "images/favicon-16x16.png"
+  favicon_svg = ""
 
 [[params.social]]
 name = "GitHub"
@@ -64,7 +65,7 @@ target = "_blank"
   contentDir = "content/zh"
 
   [languages.zh.params]
-    info = "我是名軟體工程師，目前在 Amazon 實習，我擅長的領域是後端開發與資料庫優化。近期在美國唸 CS，預計 2026 年畢業。"
+    info = "我是名軟體工程師，目前在 **Amazon** 實習，我擅長的領域是**後端開發**與**分散式系統**。近期在美國唸 CS 碩士，預計在 2026 年畢業！"
 
   [languages.zh.menu]
     [[languages.zh.menu.main]]
@@ -74,3 +75,8 @@ target = "_blank"
       [languages.zh.menu.main.params]
       target = "_blank"
       rel = "noopener noreferrer nofollow"
+
+[outputs]
+  home = ["HTML"]
+
+# trigger build

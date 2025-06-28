@@ -1,0 +1,5 @@
+.idea
+personal-website/public/
+personal-website/resources/
+*.lock
+/public/
