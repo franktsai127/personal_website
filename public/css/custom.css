@@ -1,0 +1,13 @@
+.info {
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer .container {
+  font-size: 12px;
+}
+
