@@ -2,7 +2,6 @@ baseURL = "https://franktsai127.github.io/personal_website/"
 languageCode = "en-us"
 title = "Frank Tsai"
 theme = "hugo-coder"
-defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 [params]
