@@ -7,8 +7,8 @@ defaultContentLanguageInSubdir = true
 [params]
   customCSS = ["css/custom.css"]
   author = "Frank Tsai"
-  info = "I'm a software engineer currently working as a **Software Development Engineer Intern** at **Amazon**. I focus on **backend development** and **distributed systems**, and more. I am currently living and studying in the U.S., with an expected graduation in **2026**."
-  description = "My personal website"
+  info = "I'm a software engineer currently working as a **Software Development Engineer Intern** at **Amazon**. I focus on **backend development** and **distributed systems**, and more. I am currently living and studying in the U.S, with an expected graduation in **2026**."
+  description = "Frank Tsai's Personal Website"
   avatarURL = "images/avatar.jpg"
   dark_mode = "dark"
   hideColorSchemeToggle = true
@@ -64,7 +64,7 @@ target = "_blank"
   contentDir = "content/zh"
 
   [languages.zh.params]
-    info = "我是名軟體工程師，目前在 **Amazon** 實習，我擅長的領域是**後端開發**與**分散式系統**。近期在美國生活及唸 CS 碩士，預計在 2026 年畢業"
+    info = "我是名軟體工程師，目前在 **Amazon** 實習，我擅長的領域是**後端開發**與**分散式系統**。近期在美國生活及唸 CS 碩士，預計在 2026 年畢業"!
 
   [languages.zh.menu]
     [[languages.zh.menu.main]]
