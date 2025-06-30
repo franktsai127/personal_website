@@ -8,7 +8,7 @@ defaultContentLanguageInSubdir = true
 [params]
   customCSS = ["css/custom.css"]
   author = "Frank Tsai"
-  info = "I'm a software engineer currently working as a **Software Development Engineer Intern** at **Amazon**. I focus on **backend development** and **distributed systems**, and more. I am currently living and studying in the U.S., with an expected graduation in **2026**."
+  info = "I'm a software engineer currently working as a **Software Development Engineer Intern** at **Amazon**. I focus on **backend development** and **distributed systems**, and more. I am currently living and studying in the U.S, with an expected graduation in **2026**."
   description = "My personal website"
   avatarURL = "images/avatar.jpg"
   dark_mode = "dark"
