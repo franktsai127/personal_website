@@ -4,14 +4,22 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source code
+      - name: Checkout source code (with submodules)
         uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      # DEBUG
+      - name: Show hugo.toml content
+        run: cat hugo.toml
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -20,6 +28,10 @@ jobs:
 
       - name: Build site
         run: hugo --minify
+
+      # DEBUG
+      - name: List output files
+        run: ls -al ./public && cat ./public/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
