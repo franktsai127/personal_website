@@ -5,7 +5,6 @@ theme = "hugo-coder"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
-
 [params]
   customCSS = ["css/custom.css"]
   author = "Frank Tsai"
