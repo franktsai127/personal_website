@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Frank Tsai</title>
+    <link>http://localhost:1313/zh/posts/</link>
+    <description>Recent content in Posts on Frank Tsai</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 21 Jun 2025 01:18:07 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post Zh</title>
+      <link>http://localhost:1313/zh/posts/first-post-zh/</link>
+      <pubDate>Sat, 21 Jun 2025 01:18:07 -0700</pubDate>
+      <guid>http://localhost:1313/zh/posts/first-post-zh/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
